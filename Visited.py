@@ -1,23 +1,24 @@
 # -*- coding: utf-8 -*-
 
+# Import Libraries
 import streamlit as st
 import plotly.express as px
 import pandas as pd
 
-# List of countries you've visited
+# List of countries that I have visited
 visited_countries = ['United States of America', 'Ireland', 'United Kingdom', 'France','Iceland',
                      'Spain', 'Netherlands', 'Belgium', 'Germany', 'Denmark', 'Sweden', 'Finland',
                      'Italy', 'Switzerland', 'Austria', 'Croatia', 'Poland', 'Greece', 'Ghana',
                      'Namibia', 'Botswana', 'Zambia', 'Zimbabwe', 'South Africa', 'Mauritius', 'Israel',
                      'Turkey', 'China']
 
-# Path to the CSV file
+# Path to the csv file
 csv_path = r'Countries-Continents.csv'  # Update this path if necessary
 
 # Load country and continent data from CSV
 df = pd.read_csv(csv_path)
 
-### ----- TITLE -----
+# App Title
 st.title("Countries Visited")
 
 # Ensure the DataFrame has 'country' and 'continent' columns
@@ -62,7 +63,7 @@ cols = st.columns(len(continent_stats))
 for col, (continent, total, visited, percentage) in zip(cols, continent_stats.values):
     col.metric(continent, f"{visited}/{total}", f"{percentage:.0f}%")
 
-
+# Show figure
 st.plotly_chart(fig)
 
 #st.subheader("Continent Statistics")
