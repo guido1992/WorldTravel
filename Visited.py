@@ -11,9 +11,11 @@ visited_countries = ['United States of America', 'Ireland', 'United Kingdom', 'F
                      'Namibia', 'Botswana', 'Zambia', 'Zimbabwe', 'South Africa', 'Israel', 'Turkey',
                      'China']
 
+# Path to the CSV file
+csv_path = r'Countries-Continents.csv'  # Update this path if necessary
+
 # Load country and continent data from CSV
-csv_url = r'C:\Users\alexa\Desktop\Streamlit\Countries-Continents.csv'
-df = pd.read_csv(csv_url)
+df = pd.read_csv(csv_path)
 
 ### ----- TITLE -----
 st.title("Countries Visited")
