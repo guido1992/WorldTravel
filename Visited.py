@@ -10,7 +10,7 @@ visited_countries = ['United States of America', 'Ireland', 'United Kingdom', 'F
                      'Spain', 'Netherlands', 'Belgium', 'Germany', 'Denmark', 'Sweden', 'Finland',
                      'Italy', 'Switzerland', 'Austria', 'Croatia', 'Poland', 'Greece', 'Ghana',
                      'Namibia', 'Botswana', 'Zambia', 'Zimbabwe', 'South Africa', 'Mauritius', 'Israel',
-                     'Turkey', 'China']
+                     'Turkey', 'China', 'Serbia']
 
 # Path to the csv file
 csv_path = r'Countries-Continents.csv'  # Update this path if necessary
