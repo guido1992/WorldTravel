@@ -6,9 +6,9 @@ import plotly.express as px
 import pandas as pd
 
 # List of countries that I have visited
-visited_countries = ['United States of America', 'Ireland', 'United Kingdom', 'France','Iceland',
+visited_countries = ['United States of America', 'Ireland', 'United Kingdom', 'France', 'Iceland', 'Portugal', 
                      'Spain', 'Netherlands', 'Belgium', 'Germany', 'Denmark', 'Sweden', 'Finland',
-                     'Italy', 'Switzerland', 'Austria', 'Croatia', 'Poland', 'Greece', 'Ghana',
+                     'Italy', 'Switzerland', 'Austria', 'Croatia', 'Poland', 'Latvia', 'Greece', 'Ghana',
                      'Namibia', 'Botswana', 'Zambia', 'Zimbabwe', 'South Africa', 'Mauritius', 'Israel',
                      'Turkey', 'China', 'Serbia']
 
