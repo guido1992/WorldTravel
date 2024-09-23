@@ -8,7 +8,7 @@ import pandas as pd
 # List of countries that I have visited
 visited_countries = ['United States of America', 'Ireland', 'United Kingdom', 'France', 'Iceland', 'Portugal', 
                      'Spain', 'Netherlands', 'Belgium', 'Germany', 'Denmark', 'Sweden', 'Finland',
-                     'Italy', 'Switzerland', 'Austria', 'Croatia', 'Poland', 'Latvia', 'Greece', 'Ghana',
+                     'Italy', 'Switzerland', 'Austria', 'Croatia', 'Poland', 'Estonia', 'Greece', 'Ghana',
                      'Namibia', 'Botswana', 'Zambia', 'Zimbabwe', 'South Africa', 'Mauritius', 'Israel',
                      'Turkey', 'China', 'Serbia']
 
